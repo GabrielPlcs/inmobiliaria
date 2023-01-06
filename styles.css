@@ -24,6 +24,14 @@ ul {
 display: flex;
 }
 
+#titulo {
+font-family: 'Playfair Display', serif;
+} 
+
+#titulo-2 {
+font-family: 'Playfair Display', serif;
+}
+
 a {
   text-decoration: none; 
   color: blue; 
@@ -56,7 +64,7 @@ padding: 10px 20px 10px 20px
  }
 
  header {
- background: url(realestate.jpg);
+ background: url(casacoima.jpg);
  height: 100vh;
  background-size: cover;  
  }
