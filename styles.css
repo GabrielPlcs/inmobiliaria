@@ -1,0 +1,68 @@
+body {
+font-family: 'Montserrat', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+p {
+font-size: 25px; 
+}
+
+li  {
+list-style: none; 
+margin-right: 25px;
+}
+
+.menu {
+ display: flex; 
+ justify-content: space-between; 
+ align-items: center;
+ padding: 20px; 
+}
+
+ul {
+display: flex;
+}
+
+a {
+  text-decoration: none; 
+  color: blue; 
+  }
+  
+.titular {
+text-align: center; 
+margin-top: 150px;
+}
+
+h1 {
+font-size: 60px; 
+margin:0px;
+}
+
+h2 { 
+margin:0px;
+font-size: 30px;
+margin-bottom: 0px;
+}
+
+h4 {
+margin-bottom: 60px;
+}
+
+a {
+color: white;
+background: #00909e;
+padding: 10px 20px 10px 20px
+ }
+
+ header {
+ background: url(realestate.jpg);
+ height: 100vh;
+ background-size: cover;  
+ }
+ 
+ .contenedor {
+ max-width: 1280px;
+ width: 90%;
+ margin: auto; 
+ {
