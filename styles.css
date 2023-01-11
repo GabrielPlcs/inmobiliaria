@@ -8,7 +8,12 @@ p {
 font-size: 25px; 
 }
 
+#naming {
+  color: white;
+}
+
 li  {
+  color: white;
 list-style: none; 
 margin-right: 25px;
 }
@@ -39,21 +44,24 @@ a {
   
 .titular {
 text-align: center; 
-margin-top: 150px;
+margin-top: 130px;
 }
 
 h1 {
 font-size: 60px; 
-margin:0px;
+margin-bottom:20px;
+color: white;
 }
 
 h2 { 
+  color: white;
 margin:0px;
 font-size: 30px;
 margin-bottom: 0px;
 }
 
 h4 {
+  color: white;
 margin-bottom: 60px;
 }
 
@@ -64,7 +72,7 @@ padding: 10px 20px 10px 20px
  }
 
  header {
- background: url(casacoima.jpg);
+ background: url(salapx.jpg);
  height: 100vh;
  background-size: cover;  
  }
@@ -73,4 +81,54 @@ padding: 10px 20px 10px 20px
  max-width: 1280px;
  width: 90%;
  margin: auto; 
- {
+}
+
+#casilla {
+	cursor: pointer;
+	transition: all 0.25s ease 0s;
+}
+
+#casilla:hover {
+	color: #green;
+	transform: scale(1.1); 
+}
+h3 {
+text-align: center;
+font-size: 55px; 
+font-weight: normal;
+font-family: 'Playfair Display', serif;
+} 
+
+#section1 {
+  color: black;
+font-weight: normal;
+}
+
+.contenedor-sobrenosotros {
+display: flex; 
+justify-content: space-around;
+}
+
+#section {
+  padding: 10px;
+  margin-bottom: auto;
+}
+
+.contenedor-parrafo-y-boton {
+  width: 42%; 
+  height: 42%;
+  margin-top: 40px;
+}
+
+.contenedor-parrafo-y-boton p {
+  font-size: 22px;
+}
+
+.contenedor-parrafo-y-boton a {
+ margin-top: 20px;
+ display: inline-block;
+}
+
+#imagen-section2 {
+  padding-bottom: 100px;
+}
